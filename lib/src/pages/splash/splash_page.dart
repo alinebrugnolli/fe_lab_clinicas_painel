@@ -13,7 +13,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     WidgetsBinding.instance.addPostFrameCallback((_) { 
       // Navigator.of(context).pushReplacementNamed('/login');
-      Navigator.of(context).pushReplacementNamed('/painel');
+      Navigator.of(context).pushReplacementNamed('/login');
     });
     super.initState();
   }

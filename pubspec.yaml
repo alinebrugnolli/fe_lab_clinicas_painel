@@ -37,14 +37,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   fe_lab_clinicas_core:
     path: ../fe_lab_clinicas_core
-  flutter_getit: ^2.0.0
-  dio3: ^0.0.1
+  flutter_getit: ^2.0.0  
   dio: ^5.4.0
   shared_preferences: ^2.2.2
   signals_flutter: ^3.0.0
   asyncstate: ^2.1.1-dev.1
   validatorless: ^1.2.3
   json_annotation: ^4.8.1
+  web_socket_channel: ^2.4.0
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:

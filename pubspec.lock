@@ -193,14 +193,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.4.0"
-  dio3:
-    dependency: "direct main"
-    description:
-      name: dio3
-      sha256: "2c44754477afa155b21e2ba4cdc60217d88d90a54712bc3a74d6095f5215f878"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.1"
   fake_async:
     dependency: transitive
     description:
@@ -319,6 +311,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.19.0"
   io:
     dependency: transitive
     description:
@@ -709,7 +709,7 @@ packages:
     source: hosted
     version: "0.3.0"
   web_socket_channel:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: web_socket_channel
       sha256: d88238e5eac9a42bb43ca4e721edba3c08c6354d4a53063afaa568516217621b
